@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated experiment assets
+data/
+checkpoints/
+outputs/
+runs/
+*.pt
+*.pth
+*.safetensors
+
+# OS files
+.DS_Store
